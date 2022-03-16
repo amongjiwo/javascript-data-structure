@@ -14,3 +14,20 @@ const apakahHukumanKoruptorSudahAdil = false;
 
 console.log(apakahKoruptorMerugikanNegara);
 console.log(apakahHukumanKoruptorSudahAdil);
+
+// Object literal
+const ktp = {
+    nama: "ALamanda Shantika",
+    alamat: {
+        jalan: "Jl. Sudirman 101",
+        "rt/rw": "03/09"
+    },
+    pekerjaan: [
+        "President Director Binar Academy",
+        "Independent commissioner Mandiri Capital Indonesia"
+    ]
+};
+
+console.log(ktp.nama)
+console.log(ktp["alamat"]["jalan"])
+console.log(ktp.alamat["rt/rw"])
