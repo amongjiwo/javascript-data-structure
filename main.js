@@ -31,3 +31,8 @@ const ktp = {
 console.log(ktp.nama)
 console.log(ktp["alamat"]["jalan"])
 console.log(ktp.alamat["rt/rw"])
+
+// Array di dalam Object
+ktp.pekerjaan.forEach(function(item) {
+    console.log(`${item} adalah pekerjaan ${ktp.nama}`)
+})
