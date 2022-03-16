@@ -36,3 +36,34 @@ console.log(ktp.alamat["rt/rw"])
 ktp.pekerjaan.forEach(function(item) {
     console.log(`${item} adalah pekerjaan ${ktp.nama}`)
 })
+
+// Array literal
+const bahasaPemrograman = ["Javascript", "PHP", "Python", "Golang"];
+
+// Array with multiple lines
+const namaProgrammer = [
+    "Brendan Eich",
+    "Rasmus Lerdorf",
+    "Guido van Rossum",
+    "Ken Thompson",
+    "Rob Pike",
+    "Robert Griesemer"
+];
+
+// Array with new keyword
+const programmingLanguages = new Array("Javascript", "PHP", "Python", "Golang");
+console.log(bahasaPemrograman) 
+console.log(namaProgrammer.length) // Output: 6
+
+// Nested Array
+const arrays = [bahasaPemrograman, namaProgrammer]
+console.log(arrays)
+
+// Array push
+const brands = ["Apple", "Samsung", "Xiaomi"]
+brands.push("Lenovo")
+console.log(brands) 
+
+// Array pop
+brands.pop()
+console.log(brands)
